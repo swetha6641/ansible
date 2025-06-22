@@ -15,7 +15,7 @@
     when: NUMBER > 100
 
 - name: playbook control using ansible facts
-  hosts: node
+  hosts: ansible
   become: yes
   tasks:
   - name: install nginx if redhat
